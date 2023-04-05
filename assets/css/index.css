@@ -60,7 +60,6 @@ aside {
     border: 4px solid black;
     padding: 5px;
     width: 85%;
-    margin-left: 155px;
     margin-top: 40px;
     word-spacing: 4px;
     line-height: 2;
@@ -140,7 +139,6 @@ display: flex;
 width: auto;
 height: auto;
 display: flex;
-margin: auto;
 }
 
 a:hover {
@@ -157,3 +155,35 @@ a:hover {
 
     transform: scale(1.1);
 }
+
+#footer {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .cards { width: 50%;
+    
+    }
+    #aboutme {
+        width: 50%;
+    }
+    
+    #aboutme {
+
+        width: 100%;
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    .cards { width: 100%;
+    
+    }
+    
+  }
